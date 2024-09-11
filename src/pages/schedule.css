@@ -1,0 +1,35 @@
+
+  ul {
+    list-style-type: none;
+  }
+  .column {
+    display:flex;
+  flex-direction: column;
+  font-size:1.1em;
+  gap:1em;
+  }
+
+  .row {display:flex}
+
+  .time {
+    font-weight:bold;
+    width:40%
+  }
+  .event {
+    flex:1
+  }
+.title{
+  font-size:2.2em;
+  font-weight:bold;
+  line-height: 1.2em;
+  
+}
+.location-section, .schedule-section {
+  display:flex;
+  flex-direction: column;
+  gap:5px;
+}
+.schedule-section, .location-section div {
+  font-size:1.2em;
+  line-height: 1.6em;
+}

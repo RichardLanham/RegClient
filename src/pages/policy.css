@@ -1,0 +1,7 @@
+div ol li {
+    font-weight:bold
+}
+div ol li li {
+    font-weight:normal;
+    margin:8px;
+}
